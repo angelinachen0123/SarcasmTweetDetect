@@ -8,6 +8,7 @@ For both SVM and logistic models, we first test the models using no regularizati
 
 For our final model (RNN), we tokenized the cleaned data using Keras Tokenizer and padded the data before splitting it into train and test sets. The architecture of our RNN model consists of an initial embedding layer followed by two LSTM layers, two BatchNormalization layers, one Dropout layer, and two Dense layers. Our initial hyperparameter choice was arbitrary (manually chosen after a few runs). We then conduct hyperparameter tuning in later code segments to improve the model's performance.
 
+#### Important Note: ####
 This project was created at UCLA Summer Institute: Computer Science Intermediate Track within the span of 1 week. The objective of this project was to apply the methods we studied in class to a machine-learning task of our choice and compare the results. Thanks to Mini Liang for creating the lambda vs. accuracy plots (Logistic and SVM) and Elaine Hsieh for working on implementing cross-validation (also for Logistic and SVM).
 
 #### Future Work: ####
