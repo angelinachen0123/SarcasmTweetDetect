@@ -11,6 +11,7 @@ For our final model (RNN), we tokenized the cleaned data using Keras Tokenizer a
 #### Important Note: ####
 This project was created at UCLA Summer Institute: Computer Science Intermediate Track within the span of 1 week. The objective of this project was to apply the methods we studied in class to a machine-learning task of our choice and compare the results. 
 
+#### Contributors ####
 Thanks to Mini Liang for creating the lambda vs. accuracy plots (Logistic and SVM) and Elaine Hsieh for working on implementing cross-validation (also for Logistic and SVM).
 
 #### Future Work: ####
